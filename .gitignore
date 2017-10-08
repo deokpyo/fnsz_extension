@@ -1,0 +1,8 @@
+env.js
+/js/src
+/js/firebase
+/icons
+/fonts
+/node_modules
+/src/main
+manifest.json
