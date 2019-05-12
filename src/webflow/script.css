@@ -1,15 +1,9 @@
-.logo-container {
-  display: flex;
-  background: #111;
-  width: 100%;
-  height: 100vh;
-  --letter-time: 0.5s;
-}
-
 .fnsz-script {
+  background: #000;
   display: block;
   margin: 0 auto;
   width: 100rem;
+  --letter-time: 0.5s;
 }
 
 .fnsz-script-path {
