@@ -1,0 +1,98 @@
+.logo-container {
+  display: flex;
+  background: #111;
+  width: 100%;
+  height: 100vh;
+  --letter-time: 0.5s;
+}
+
+.fnsz-script {
+  display: block;
+  margin: 0 auto;
+  width: 100rem;
+}
+
+.fnsz-script-path {
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 2600;
+  stroke-dashoffset: 2600;
+  stroke-width: 65;
+}
+
+.fnsz-script-path--o1 {
+  animation: fnsz-script-letters var(--letter-time) linear forwards;
+}
+
+.fnsz-script-path--u1 {
+  animation: fnsz-script-letters var(--letter-time) linear forwards 0.2s;
+}
+
+.fnsz-script-path--r1 {
+  animation: fnsz-script-letters var(--letter-time) linear forwards 0.4s;
+}
+
+.fnsz-script-path--t1 {
+  animation: fnsz-script-letters var(--letter-time) linear forwards 0.9s;
+}
+
+.fnsz-script-path--e1 {
+  animation: fnsz-script-letters var(--letter-time) linear forwards 1.3s;
+}
+
+.fnsz-script-path--am-1 {
+  animation: fnsz-script-letters var(--letter-time) linear forwards 1.6s;
+}
+
+.fnsz-script-path--am-2 {
+  animation: fnsz-script-letters var(--letter-time) linear forwards 1.8s;
+}
+
+.fnsz-script-path--i {
+  animation: fnsz-script-letters var(--letter-time) linear forwards 2s;
+}
+
+.fnsz-script-path--s {
+  animation: fnsz-script-letters var(--letter-time) linear forwards 2.2s;
+}
+
+.fnsz-script-path--y {
+  animation: fnsz-script-letters var(--letter-time) linear forwards 2.4s;
+}
+
+.fnsz-script-path--o2 {
+  animation: fnsz-script-letters var(--letter-time) linear forwards 2.6s;
+}
+
+.fnsz-script-path--u2 {
+  animation: fnsz-script-letters var(--letter-time) linear forwards 2.8s;
+}
+.fnsz-script-path--r2 {
+  animation: fnsz-script-letters var(--letter-time) linear forwards 3s;
+}
+
+.fnsz-script-path--t2 {
+  animation: fnsz-script-letters var(--letter-time) linear forwards 3.2s;
+}
+
+.fnsz-script-path--eam-1 {
+  animation: fnsz-script-letters var(--letter-time) linear forwards 3.4s;
+}
+
+.fnsz-script-path--eam-2 {
+  animation: fnsz-script-letters var(--letter-time) linear forwards 3.6s;
+}
+
+.fnsz-script-path--eam-3 {
+  animation: fnsz-script-letters var(--letter-time) linear forwards 3.8s;
+}
+
+@keyframes fnsz-script-letters {
+  0% {
+    stroke-dashoffset: 2600;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}

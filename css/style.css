@@ -135,7 +135,7 @@ body {
 
   .eventsdiv {
     padding: 0 20px;
-    overflow: scroll;
+    overflow: auto;
   }
 
   .time_zones {
